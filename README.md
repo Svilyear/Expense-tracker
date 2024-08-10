@@ -64,3 +64,4 @@ Create a table comparing the following database server options (focusing on its 
 
 * Upload the table in a document or as a picture onto this repo. 
 # Svilyear-week-6-integration-of-frontend-and-backend
+# Svilyear-week-6-integration-of-frontend-and-backend

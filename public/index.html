@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/style.css">
+ 
+
+</head>
+<body>
+  <header>
+    <h1 style="font-size: 30px;padding-left: 100px;">Expense Tracker Manager</h1>
+    <div id="user-info">
+      <img id="profile-picture-display" src="" alt="Profile Picture" style="display: none; width: 50px; height: 50px;">
+      <span id="greeting-message" style="display: none;"></span>
+    </div>
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="view_expenses.html">View Expenses</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="edit_expenses.html">Edit Expenses</a>
+      <a href="register.html">Registration</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <p>Track your expenses easily and efficiently using our simple APP.</p>
+  
+  <div class="container">
+    <form id="expense-form">
+      <div class="expense-date">
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+      </div>
+      <input type="text" id="expense-name" placeholder="Expense Name" required>
+      <input type="number" id="expense-amount" placeholder="Amount" required>
+      <button type="submit" id="add-button">
+        <p id="add_expense">Add Transaction</p>
+      </button>
+    
+    </form>
+    <div>
+      <table>    
+        <tbody id="expense-list"></tbody>
+      </table>
+    
+      <button id="view-expenses-button">
+        <p id="add_expense"><a href="view_expenses.html">VIEW HERE</a></p>
+      </button>
+    </div>
+    <hr>
+   
+  </div>
+  
+  <footer>
+    <a href="mailto:vitronicstech@gmail.com" target="_blank">Email Us</a> for more information.</p>
+    <p>&copy; 2024 Expense Tracker App. Made with LOVE.</p>
+  </footer>
+ 
+  <script src="js/index.js"></script>
+ 
+</body>
+</html>
